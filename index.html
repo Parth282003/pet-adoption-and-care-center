@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+
+</head>
+<body>
+    <main>
+    <nav id="main-nav" class="navbar bg-body-tertiary custom-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="/dog-png-22667.png" alt="Logo" width="105" height="100" class="d-inline-block align-text-top">
+            PET ADOPTION CENTRE 
+          </a>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dogs.html">ADOPTION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tc.html">SHOP</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </main>
+    <header class="hero">
+        <div>
+          <h1>Find Your Forever Friend – Adopt Love Today!</h1>
+          <p>Every pet deserves a loving home. Join us in transforming lives, one pet at a time.</p>
+          <a href="/dogs.html" class="cta-btn">Browse Our Pets</a>
+          <a href="/dogs.html" class="cta-btn">Adopt Now</a>
+        </div>
+      </header>
+    
+      <!-- Main Content -->
+      <main>
+        <!-- Introduction & Mission Statement -->
+        <section class="section" id="mission">
+          <h2>Welcome to [Your Organization Name]</h2>
+          <p>
+            We're dedicated to rescuing, nurturing, and finding forever homes for pets in need. Every furry friend has a story, and with your support, each story can have a happy ending.
+          </p>
+          <p>
+            Our mission is to create a community where pets are cherished and loved. Whether it’s through pet adoption, volunteer work, or donations, you can help us build a better future for animals everywhere.
+          </p>
+        </section>
+    
+        <!-- Why Adopt Section -->
+        <section class="section" id="why-adopt">
+          <h2>Why Adopt?</h2>
+          <ul class="benefits">
+            <li><strong>A Loving Companion:</strong> Experience the unconditional love and joy that only a pet can bring.</li>
+            <li><strong>Save a Life:</strong> Your decision to adopt not only gives a pet a second chance but also opens up space for other needy animals.</li>
+            <li><strong>Community & Support:</strong> Join a community of passionate animal lovers committed to responsible pet care.</li>
+            <li><strong>Expert Care:</strong> All our pets receive thorough health checks, care, and rehabilitation before joining your family.</li>
+          </ul>
+        </section>
+    
+        <!-- Success Stories Section -->
+        <section class="section" id="success-stories">
+          <h2>Success Stories</h2>
+          <div class="testimonial">
+            <p>"Adopting Bella changed my life. Her energy and love brought warmth into my home, and I can’t imagine my life without her!"</p>
+            <span>– Sarah, Proud Pet Parent</span>
+          </div>
+          <p>
+            Read more heartwarming stories from our happy families on our <a href="#stories">Success Stories</a> page.
+          </p>
+        </section>
+    
+        <!-- Adoption Process Section -->
+        <section class="section" id="adopt">
+          <h2>Our Adoption Process</h2>
+          <ol class="process-steps">
+            <li><strong>Meet the Pet:</strong> Browse our listings and select the pet that tugs at your heart.</li>
+            <li><strong>Apply Online:</strong> Fill out a simple adoption application form.</li>
+            <li><strong>Screening & Interview:</strong> Our team will contact you to discuss your lifestyle and answer any questions.</li>
+            <li><strong>Welcome Home:</strong> Finalize the adoption, and soon your new friend will be a cherished member of your family.</li>
+          </ol>
+        </section>
+    
+        <!-- Get Involved Section -->
+        <section class="section" id="get-involved">
+          <h2>Make a Difference Today</h2>
+          <div class="cta-group">
+            <button id="openModal1">Donate</button>
+            <button id="openModal">Volunteer</button>
+          </div>
+        </section>
+        
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+          
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Apartment, studio, or floor"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip" />
+                </div>
+              </form>
+            </div>
+          </div>
+      </main>
+    
+      <!-- Footer Section -->
+      <footer>
+        <p>
+          Stay Connected – Follow us on social media for the latest updates on adoption events, new arrivals, and inspiring stories.
+        </p>
+        <div class="social-links">
+          <a href="https://instagram.com/yourusername" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com/yourusername" target="_blank" title="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://x.com/yourusername" target="_blank" title="X / Twitter">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 [Your Organization Name]. All Rights Reserved.</p>
+      </footer>  
+      
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jss.js"></script>
+    
+</body>
+</html>
